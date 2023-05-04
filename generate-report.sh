@@ -52,6 +52,7 @@ pandoc $PREPROCESSED_PATH \
 -V block-headings \
 -V urlcolor=blue \
 --from markdown \
+--to pdf
 --template eisvogel \
 --table-of-contents \
 --toc-depth 6 \
