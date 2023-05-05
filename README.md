@@ -5,7 +5,7 @@ Builing a container based on the fine work of others using this repo as a base h
 aliased to do the heavy lifting 
 motd file that acts like a help file
 
-Cmmand to build
+Command to build
 docker build -t oscp-report-tools .
 
 no cache is fun to watch - forces a little break  
