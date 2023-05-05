@@ -1,4 +1,23 @@
-# OSCP-Exam-Report-Template
+# Make a Docker Container 
+
+Builing a container based on the fine work of others using this repo as a base https://github.com/thomfre/OSCP-Exam-Report-Template
+
+aliased to do the heavy lifting 
+motd file that acts like a help file
+
+Cmmand to build
+docker build -t oscp-report-tools .
+
+no cache is fun to watch - forces a little break  
+
+docker build --no-cache -t oscp-report-tools .
+
+Command to run 
+dockershell -v "${PWD}:/results" oscp-report-tools 
+
+
+
+## OSCP-Exam-Report-Template
 
 [![GitHub Issues](https://img.shields.io/github/issues/thomfre/OSCP-Exam-Report-Template)](https://github.com/thomfre/OSCP-Exam-Report-Template/issues)
 [![Forks](https://img.shields.io/github/forks/thomfre/OSCP-Exam-Report-Template)](https://github.com/thomfre/OSCP-Exam-Report-Template/network/members)
@@ -13,14 +32,14 @@ Instead of one huge report file, this template is based on several smaller markd
 
 The report text is the [whoisflynn improved version](https://github.com/whoisflynn/OSCP-Exam-Report-Template) of the official [PWK Example Report](https://www.offensive-security.com/pwk-online/PWK-Example-Report-v1.pdf).
 
-## Requirements
+### Requirements
 
 - [MarkdownPP](https://github.com/jreese/markdown-pp)
 - [Pandoc](https://pandoc.org/installing.html)
 - LaTeX (eg. [TeX Live](http://www.tug.org/texlive/)) in order to get `pdflatex` or `xelatex`
 - [Eisvogel Pandoc LaTeX PDF Template](https://github.com/Wandmalfarbe/pandoc-latex-template#installation)
 
-## Usage
+### Usage
 
 1. Start by making a [new private repository from this template](https://github.com/thomfre/OSCP-Exam-Report-Template/generate). **Make sure you make it private**
 2. Edit **generate-package.sh** and add your OS-ID to `OSID=""`.
@@ -29,7 +48,7 @@ The report text is the [whoisflynn improved version](https://github.com/whoisfly
 5. Then simply write your report in **markdown**.
 6. Run **generate-package.sh** to generate report PDFs and report package.
 
-### Exercises and targets
+## Exercises and targets
 
 Add exercises to the _Lab/Exercises_ directory, save as _.md_ files. Prefix the file with the chapter number, to ensure that the exercises will be included in the correct order.
 
