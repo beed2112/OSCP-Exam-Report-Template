@@ -16,7 +16,6 @@ Command to run
 dockershell -v "${PWD}:/results" oscp-report-tools 
 
 
-
 ## OSCP-Exam-Report-Template
 
 [![GitHub Issues](https://img.shields.io/github/issues/thomfre/OSCP-Exam-Report-Template)](https://github.com/thomfre/OSCP-Exam-Report-Template/issues)
