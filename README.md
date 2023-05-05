@@ -1,4 +1,4 @@
-# Make a Docker Container 
+# Make other's stuff into a Docker Container 
 
 Builing a container based on the fine work of others using this repo as a base https://github.com/thomfre/OSCP-Exam-Report-Template
 
