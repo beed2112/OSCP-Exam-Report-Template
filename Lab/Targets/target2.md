@@ -1,5 +1,7 @@
-# System IP: x.x.x.x
-# System Name: target2
+# System IP: x.x.x.2
+
+
+## System Name: target2
 
 ## Service Enumeration
 
